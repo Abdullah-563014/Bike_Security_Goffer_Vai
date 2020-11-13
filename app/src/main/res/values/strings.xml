@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bike Security</string>
+    <string name="device_status">Device Status</string>
+    <string name="alarm_on">Alarm On</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="lock">Lock</string>
+    <string name="un_lock">UnLock</string>
+    <string name="find_bike">Find Bike</string>
+    <string name="voice_command">Voice Command</string>
+    <string name="more_options">More Options</string>
+    <string name="menu">Menu</string>
+    <string name="setup">Setup</string>
+</resources>
