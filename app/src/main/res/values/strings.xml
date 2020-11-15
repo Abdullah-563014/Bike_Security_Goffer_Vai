@@ -10,4 +10,10 @@
     <string name="more_options">More Options</string>
     <string name="menu">Menu</string>
     <string name="setup">Setup</string>
+
+    <string name="setup_device">Setup Device</string>
+    <string name="device_num">Device Number:- *****</string>
+    <string name="enter_device_sim_num">Enter Device SIM Number</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
 </resources>
