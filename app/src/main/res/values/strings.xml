@@ -16,4 +16,14 @@
     <string name="enter_device_sim_num">Enter Device SIM Number</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <string name="key_on">Key On - Call When Unlock</string>
+    <string name="activate">Activate</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="adjust_vibration">Adjust Vibration Sensitivity</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="autolock_options">Autolock options</string>
+    <string name="remote_options">Remote Options</string>
 </resources>

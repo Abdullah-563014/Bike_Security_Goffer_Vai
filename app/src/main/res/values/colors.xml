@@ -4,6 +4,7 @@
     <color name="colorDarkOrange">#FF5722</color>
     <color name="colorRed">#E91E63</color>
     <color name="colorGray">#808080</color>
+    <color name="colorLightGray">#AFADAD</color>
     <color name="colorBlack">#FF000000</color>
     <color name="colorWhite">#FFFFFFFF</color>
     <color name="colorGreen">#2196F3</color>

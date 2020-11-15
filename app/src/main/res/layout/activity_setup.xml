@@ -39,6 +39,7 @@
         android:background="@drawable/edit_text_background"
         android:paddingStart="@dimen/_10sdp"
         android:inputType="number"
+        android:maxLength="11"
         android:hint="@string/enter_device_sim_num"
         android:textColorHint="@color/colorWhite"
         android:textColor="@color/colorWhite"
@@ -69,4 +70,14 @@
             android:text="@string/save"
             android:layout_height="match_parent"/>
     </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/setUpActivityGifImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/colorWhite"
+        android:visibility="gone"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
