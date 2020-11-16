@@ -4,6 +4,8 @@ public class Constants {
 
     public static String TAG="Abdullah";
 
+    public static String helpLineNumber="01909900489";
+
     public static String deviceStatusSmsCommand="Status";
     public static String findBikeSmsCommand="Find";
     public static String alarmOnSmsCommand="Alarm";

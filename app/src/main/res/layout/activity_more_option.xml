@@ -224,5 +224,15 @@
                     tools:ignore="UnusedAttribute" />
             </LinearLayout>
         </LinearLayout>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/moreOptionActivityGifImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/colorWhite"
+            android:visibility="gone"
+            android:layout_width="@dimen/_130sdp"
+            android:layout_height="@dimen/_130sdp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

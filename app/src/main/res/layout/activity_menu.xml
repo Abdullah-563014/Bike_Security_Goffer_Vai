@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="@dimen/_20sdp"
     tools:context=".menu.MenuActivity">
-
+    <Button
+        android:id="@+id/moreOptionActivityAboutUsButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        android:text="@string/about_us"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"/>
+    <Button
+        android:id="@+id/moreOptionActivityUserManualButton"
+        app:layout_constraintTop_toBottomOf="@id/moreOptionActivityAboutUsButton"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/user_manual"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"/>
+    <Button
+        android:id="@+id/moreOptionActivityFacebookPageButton"
+        app:layout_constraintTop_toBottomOf="@id/moreOptionActivityUserManualButton"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/facebook_page"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"/>
+    <Button
+        android:id="@+id/moreOptionActivityHelpLineButton"
+        app:layout_constraintTop_toBottomOf="@id/moreOptionActivityFacebookPageButton"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/help_line"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:backgroundTint="@null"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

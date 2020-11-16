@@ -26,4 +26,9 @@
     <string name="high">High</string>
     <string name="autolock_options">Autolock options</string>
     <string name="remote_options">Remote Options</string>
+
+    <string name="about_us">About Us</string>
+    <string name="user_manual">User Manual</string>
+    <string name="facebook_page">Facebook Page</string>
+    <string name="help_line">HelpLine</string>
 </resources>

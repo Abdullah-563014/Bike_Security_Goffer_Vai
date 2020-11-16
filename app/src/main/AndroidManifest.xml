@@ -18,7 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BikeSecurity">
-        <activity android:name=".setup.SetupActivity"></activity>
+        <activity android:name=".user_manual.UserManualActivity"></activity>
+        <activity android:name=".about_us.AboutUsActivity" />
+        <activity android:name=".setup.SetupActivity" />
         <activity android:name=".more_option.MoreOptionActivity" />
         <activity android:name=".menu.MenuActivity" />
         <activity android:name=".splash.SplashActivity">

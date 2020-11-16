@@ -272,17 +272,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         registerReceiver(deliveredBroadCastReceiver, new IntentFilter(DELIVERED));
     }
 
-    private void openUrl(String url) {
-        try {
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(url));
-            startActivity(Intent.createChooser(i, "Please select a browser"));
-        } catch (Exception e) {
-            e.printStackTrace();
-            Toast.makeText(this, "Failed to open url for " + e.getMessage(), Toast.LENGTH_SHORT).show();
-        }
-    }
-
     @Override
     protected void onResume() {
         super.onResume();
