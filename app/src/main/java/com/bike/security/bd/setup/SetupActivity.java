@@ -57,7 +57,7 @@ public class SetupActivity extends AppCompatActivity implements View.OnClickList
 
     private void updatePhoneNumber() {
         phoneNumber=Utility.getStringFromStorage(SetupActivity.this, Constants.deviceNumberKey, null);
-        if (phoneNumber.length()==11) {
+        if (phoneNumber!=null && phoneNumber.length()==11) {
             phoneNumber=phoneNumber.substring(8);
         }
         binding.deviceNumTextView.setText(getResources().getString(R.string.device_num)+phoneNumber);
